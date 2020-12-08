@@ -8,8 +8,10 @@ window.addEventListener('scroll', (e) => {
     }
 });
 
-let menu_btn = document.querySelector("menu-button");
+let menu_btn = document.querySelector("#menu-button");
 
-menu_btn.addEventListener('click', (e) => {
-    menu_btn.classList.toogleClass("active")
-});
+menu_btn.addEventListener('click', ()=>{
+    let menu_items = document.querySelector('#menu-items');
+
+    menu_items.classList.toggle('menu-active');
+})
