@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+
+<nav id="nav" class="navbar">
+    <div class="max-width">
+        <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+        <ul class="menu" id="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div id="menu-button" class="menu-button" onclick="">
+            <img src="images/bars-solid.svg" width="25" alt="menu"/>
+        </div>
+    </div>
+</nav>
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam laudantium minus, natus
+                    numquam
+                    perferendis qui quo sapiente sit vero.</p>
+                <div class="icons">
+                    <div class="row">
+                        <img src="images/user-solid.svg" width="16" alt="user"/>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">00010174</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/map-marker-alt-solid.svg" width="16" alt="marker"/>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Lorem ipsum dolor sit amet.</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="images/envelope-solid.svg" width="16"/>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">example@mail.ru</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column right">
+                <div class="text">Message me</div>
+                <form action="#">
+                    <div class="fields">
+                        <div class="field name">
+                            <label>
+                                <input type="text" placeholder="Name" required>
+                            </label>
+                        </div>
+                        <div class="field email">
+                            <label>
+                                <input type="email" placeholder="Email" required>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>
+                            <input type="text" placeholder="Subject" required>
+                        </label>
+                    </div>
+                    <div class="field textarea">
+                        <label>
+                            <textarea cols="30" rows="10" placeholder="Message..." required></textarea>
+                        </label>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <span>Created By <a href="#">00010174</a> | This website was created to fulfill Web Technology module’s requirements and does not
+represent an actual company or service </span>
+</footer>
+
+</body>
+</html>

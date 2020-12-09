@@ -14,4 +14,4 @@ menu_btn.addEventListener('click', ()=>{
     let menu_items = document.querySelector('#menu-items');
 
     menu_items.classList.toggle('menu-active');
-})
+});
