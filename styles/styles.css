@@ -493,6 +493,7 @@ button:hover {
 .contact .right form .field,
 .contact .right form .fields .field {
     height: 45px;
+    margin-top: 10px;
     width: 100%;
 }
 
